@@ -3,8 +3,8 @@ import MenuItemComponentProps from "../../interfaces/MenuItemComponentProps";
 import DropDownMenuItem from "./DropDownMenuItem";
 import Dropdown from "react-bootstrap/Dropdown";
 import Label from "../Label";
-import MenuItem from "../../models/MenuItem";
 import Nav from "react-bootstrap/Nav";
+import MenuItem from "./MenuItem";
 
 var snake = require('to-snake-case');
 

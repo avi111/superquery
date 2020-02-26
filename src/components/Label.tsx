@@ -1,6 +1,7 @@
 import React from 'react';
 import classnames from "classnames";
-import MenuItem from "../models/MenuItem";
+import MenuItem from "./MenuItems/MenuItem";
+
 
 const Label = (props: { item: MenuItem }) => {
     const {item} = props;

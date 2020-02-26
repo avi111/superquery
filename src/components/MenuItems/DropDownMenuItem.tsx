@@ -2,6 +2,7 @@ import React from 'react';
 import MenuItemComponentProps from "../../interfaces/MenuItemComponentProps";
 import NavDropdown from "react-bootstrap/NavDropdown";
 import SubMenuItem from "./SubMenuItem";
+import MenuItem from "./MenuItem";
 
 var snake = require('to-snake-case');
 
@@ -16,7 +17,7 @@ const DropDownMenuItem = (props: MenuItemComponentProps) => {
                      focusFirstItemOnShow>
             {
                 item.children?.map(
-                    child => <SubMenuItem key={child.label} item={child} eventKey={snake(child.label)}/>
+                    (child: MenuItem) => <SubMenuItem key={child.label} item={child} eventKey={snake(child.label)}/>
                 )
             }
         </NavDropdown>

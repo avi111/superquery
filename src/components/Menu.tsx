@@ -1,9 +1,9 @@
 import React from 'react';
 import Navbar from "react-bootstrap/Navbar";
 import Nav from "react-bootstrap/Nav";
-import menu from "../data/menu";
-import MenuItem from "../models/MenuItem";
-import action from "../models/actions";
+import menu from "../data/menu.json";
+import MenuItem from "./MenuItems/MenuItem";
+import action from "./actions";
 
 const Menu = () => {
     const onSelect = (selectedKey: any) => action(selectedKey);

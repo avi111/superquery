@@ -1,4 +1,4 @@
-import MenuItem from "../models/MenuItem";
+import MenuItem from "../components/MenuItems/MenuItem";
 
 interface MenuItemComponentProps {
     item: MenuItem,

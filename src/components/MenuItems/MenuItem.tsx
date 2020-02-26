@@ -1,6 +1,6 @@
 import React from "react";
-import IMenuItem from "../interfaces/IMenuItem";
-import SubMenuItem from "../components/MenuItems/SubMenuItem";
+import IMenuItem from "../../interfaces/IMenuItem";
+import SubMenuItem from "./SubMenuItem";
 
 var snake = require('to-snake-case');
 

@@ -2,17 +2,20 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="523e2958-e960-46b1-b5be-f9c85244f916" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/models/actions.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/composerJson.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/menuActions/about.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/menuActions/contact.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/Label.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Label.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/Menu.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Menu.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/MenuItems/DropDownMenuItem.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/MenuItems/DropDownMenuItem.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/MenuItems/RootMenuItem.tsx" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/MenuItems/SubMenuItem.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/MenuItems/SubMenuItem.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/data/menu.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/data/menu.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/data/menu.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/data/menu.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/data/menu.tsx" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/interfaces/MenuItemComponentProps.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/interfaces/MenuItemComponentProps.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/models/MenuItem.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/models/MenuItem.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/models/Menu.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/models/MenuItem.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/MenuItems/MenuItem.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/models/actions.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/actions.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -64,8 +67,9 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="true" />
+    <property name="eu.ydp.idea.ts.spec.generator.settings.spec.template" value="import {$ClassName$} from '$TestsRelativePath$../src/$classRelativePath$/$ClassName$';&#10;&#10;describe('$ClassName$', () =&gt; {&#10;  let $ObjName$:$ClassName$;&#10;&#10;  beforeEach(() =&gt; {&#10;    $ObjName$ = new $ClassName$();&#10;  });&#10;&#10;  describe('', () =&gt; {&#10;    it('', () =&gt; {&#10;      // given&#10;&#10;      // when&#10;&#10;      // then&#10;    });&#10;  });&#10;});&#10;" />
     <property name="javascript.nodejs.core.library.configured.version" value="11.10.1" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/models" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -85,9 +89,11 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\User\Documents\GitHub\superquery\src\models" />
       <recent name="C:\Users\User\Documents\GitHub\superquery\src" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\User\Documents\GitHub\superquery\src\components" />
       <recent name="C:\Users\User\Documents\GitHub\superquery\src\components\MenuItems" />
       <recent name="C:\Users\User\Documents\GitHub\superquery" />
       <recent name="C:\Users\User\Documents\GitHub\superquery\src" />
@@ -134,7 +140,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1582660092235</updated>
-      <workItem from="1582660093497" duration="19865000" />
+      <workItem from="1582660093497" duration="20715000" />
     </task>
     <task id="LOCAL‎00001" summary="first commit">
       <created>1582677290371</created>
@@ -142,7 +148,13 @@
       <option name="presentableId" value="LOCAL‎00001" />
       <updated>1582677290371</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL‎00002" summary="functionality is done">
+      <created>1582680047828</created>
+      <option name="number" value="LOCAL‎00002" />
+      <option name="presentableId" value="LOCAL‎00002" />
+      <updated>1582680047828</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -158,7 +170,8 @@
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_CLEANUP_BEFORE_PROJECT_COMMIT" value="true" />
     <MESSAGE value="first commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="first commit" />
+    <MESSAGE value="functionality is done" />
+    <option name="LAST_COMMIT_MESSAGE" value="functionality is done" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />
@@ -176,41 +189,49 @@
       <screen x="-1920" y="0" width="1920" height="1050" />
     </state>
     <state x="-1234" y="264" key="#test/0.0.1920.1050/-1920.0.1920.1050@-1920.0.1920.1050" timestamp="1582666050492" />
-    <state x="-1322" y="123" key="CommitChangelistDialog2" timestamp="1582677289532">
+    <state x="-1322" y="123" key="CommitChangelistDialog2" timestamp="1582680047134">
       <screen x="-1920" y="0" width="1920" height="1050" />
     </state>
-    <state x="-1322" y="123" key="CommitChangelistDialog2/0.0.1920.1050/-1920.0.1920.1050@-1920.0.1920.1050" timestamp="1582677289532" />
-    <state width="1408" height="277" key="GridCell.Tab.0.bottom" timestamp="1582677263833">
+    <state x="-1322" y="123" key="CommitChangelistDialog2/0.0.1920.1050/-1920.0.1920.1050@-1920.0.1920.1050" timestamp="1582680047134" />
+    <state width="1408" height="277" key="GridCell.Tab.0.bottom" timestamp="1582680865311">
       <screen x="-1920" y="0" width="1920" height="1050" />
     </state>
-    <state width="1408" height="277" key="GridCell.Tab.0.bottom/0.0.1920.1050/-1920.0.1920.1050@-1920.0.1920.1050" timestamp="1582677263833" />
-    <state width="1408" height="277" key="GridCell.Tab.0.center" timestamp="1582677263832">
+    <state width="1408" height="277" key="GridCell.Tab.0.bottom/0.0.1920.1050/-1920.0.1920.1050@-1920.0.1920.1050" timestamp="1582680865311" />
+    <state width="1408" height="277" key="GridCell.Tab.0.center" timestamp="1582680865310">
       <screen x="-1920" y="0" width="1920" height="1050" />
     </state>
-    <state width="1408" height="277" key="GridCell.Tab.0.center/0.0.1920.1050/-1920.0.1920.1050@-1920.0.1920.1050" timestamp="1582677263832" />
-    <state width="1408" height="277" key="GridCell.Tab.0.left" timestamp="1582677263832">
+    <state width="1408" height="277" key="GridCell.Tab.0.center/0.0.1920.1050/-1920.0.1920.1050@-1920.0.1920.1050" timestamp="1582680865310" />
+    <state width="1408" height="277" key="GridCell.Tab.0.left" timestamp="1582680865309">
       <screen x="-1920" y="0" width="1920" height="1050" />
     </state>
-    <state width="1408" height="277" key="GridCell.Tab.0.left/0.0.1920.1050/-1920.0.1920.1050@-1920.0.1920.1050" timestamp="1582677263832" />
-    <state width="1408" height="277" key="GridCell.Tab.0.right" timestamp="1582677263833">
+    <state width="1408" height="277" key="GridCell.Tab.0.left/0.0.1920.1050/-1920.0.1920.1050@-1920.0.1920.1050" timestamp="1582680865309" />
+    <state width="1408" height="277" key="GridCell.Tab.0.right" timestamp="1582680865310">
       <screen x="-1920" y="0" width="1920" height="1050" />
     </state>
-    <state width="1408" height="277" key="GridCell.Tab.0.right/0.0.1920.1050/-1920.0.1920.1050@-1920.0.1920.1050" timestamp="1582677263833" />
+    <state width="1408" height="277" key="GridCell.Tab.0.right/0.0.1920.1050/-1920.0.1920.1050@-1920.0.1920.1050" timestamp="1582680865310" />
     <state x="-1380" y="263" key="IDE.errors.dialog" timestamp="1582673304071">
       <screen x="-1920" y="0" width="1920" height="1050" />
     </state>
     <state x="-1380" y="263" key="IDE.errors.dialog/0.0.1920.1050/-1920.0.1920.1050@-1920.0.1920.1050" timestamp="1582673304071" />
+    <state x="-1368" y="249" key="Vcs.Push.Dialog.v2" timestamp="1582680055219">
+      <screen x="-1920" y="0" width="1920" height="1050" />
+    </state>
+    <state x="-1368" y="249" key="Vcs.Push.Dialog.v2/0.0.1920.1050/-1920.0.1920.1050@-1920.0.1920.1050" timestamp="1582680055219" />
     <state x="-1828" y="92" width="1736" height="866" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1582677248903">
       <screen x="-1920" y="0" width="1920" height="1050" />
     </state>
     <state x="-1828" y="92" width="1736" height="866" key="com.intellij.history.integration.ui.views.FileHistoryDialog/0.0.1920.1050/-1920.0.1920.1050@-1920.0.1920.1050" timestamp="1582677248903" />
-    <state x="-1315" y="252" width="710" height="546" key="find.popup" timestamp="1582678415315">
+    <state x="-1315" y="252" width="710" height="546" key="find.popup" timestamp="1582680384939">
       <screen x="-1920" y="0" width="1920" height="1050" />
     </state>
-    <state x="-1315" y="252" width="710" height="546" key="find.popup/0.0.1920.1050/-1920.0.1920.1050@-1920.0.1920.1050" timestamp="1582678415315" />
+    <state x="-1315" y="252" width="710" height="546" key="find.popup/0.0.1920.1050/-1920.0.1920.1050@-1920.0.1920.1050" timestamp="1582680384939" />
     <state x="-1219" y="161" key="refactoring.ChangeSignatureDialog" timestamp="1582670276794">
       <screen x="-1920" y="0" width="1920" height="1050" />
     </state>
     <state x="-1219" y="161" key="refactoring.ChangeSignatureDialog/0.0.1920.1050/-1920.0.1920.1050@-1920.0.1920.1050" timestamp="1582670276794" />
+    <state x="-1297" y="227" width="672" height="678" key="search.everywhere.popup" timestamp="1582680420212">
+      <screen x="-1920" y="0" width="1920" height="1050" />
+    </state>
+    <state x="-1297" y="227" width="672" height="678" key="search.everywhere.popup/0.0.1920.1050/-1920.0.1920.1050@-1920.0.1920.1050" timestamp="1582680420212" />
   </component>
 </project>

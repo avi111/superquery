@@ -1,7 +1,9 @@
+import about from "../menuActions/about";
+import contact from "../menuActions/contact";
+
 const actions: { [key: string]: () => void } = {
-    about: () => {
-        alert('moshe');
-    }
+    about,
+    contact
 };
 
 const action = (selectedKey: any) => {
