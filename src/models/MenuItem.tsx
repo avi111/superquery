@@ -1,7 +1,8 @@
 import React from "react";
 import IMenuItem from "../interfaces/IMenuItem";
-import RootMenuItem from "../components/MenuItems/RootMenuItem";
 import SubMenuItem from "../components/MenuItems/SubMenuItem";
+
+var snake = require('to-snake-case');
 
 class MenuItem implements IMenuItem {
     children?: MenuItem[];
@@ -17,16 +18,7 @@ class MenuItem implements IMenuItem {
     }
 
     render() {
-        const {isRoot} = this;
-        return isRoot ? (
-            <RootMenuItem key={this.label} item={this}/>
-        ) : (
-            <SubMenuItem item={this}/>
-        )
-    }
-
-    hasChildren() {
-        return this.children && this.children.length;
+        return <SubMenuItem key={snake(this.label)} item={this}/>
     }
 }
 

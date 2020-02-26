@@ -3,9 +3,10 @@ import Navbar from "react-bootstrap/Navbar";
 import Nav from "react-bootstrap/Nav";
 import menu from "../data/menu";
 import MenuItem from "../models/MenuItem";
+import action from "../models/actions";
 
 const Menu = () => {
-    const onSelect = (selectedKey: any) => console.log(selectedKey);
+    const onSelect = (selectedKey: any) => action(selectedKey);
 
     return (
         <Navbar bg="light" expand="lg">

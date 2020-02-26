@@ -2,32 +2,17 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="523e2958-e960-46b1-b5be-f9c85244f916" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config-overrides.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/bootstrap-custom.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Header.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Label.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Menu.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/MenuItems/DropDownMenuItem.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/MenuItems/RootMenuItem.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/MenuItems/SubMenuItem.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/data/menu.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/data/menu.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/interfaces/IMenuItem.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/interfaces/MenuItemComponentProps.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/models/Menu.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/models/MenuItem.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/models/actions.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.test.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Label.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Label.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Menu.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Menu.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/MenuItems/DropDownMenuItem.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/MenuItems/DropDownMenuItem.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/MenuItems/RootMenuItem.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/MenuItems/SubMenuItem.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/MenuItems/SubMenuItem.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/data/menu.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/data/menu.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/interfaces/MenuItemComponentProps.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/interfaces/MenuItemComponentProps.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/models/MenuItem.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/models/MenuItem.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -46,8 +31,8 @@
         <option value="json file" />
         <option value="TypeScript Class" />
         <option value="Jest TypeScript File" />
-        <option value="TypeScript File" />
         <option value="React Functional Component" />
+        <option value="TypeScript File" />
       </list>
     </option>
   </component>
@@ -149,8 +134,15 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1582660092235</updated>
-      <workItem from="1582660093497" duration="17122000" />
+      <workItem from="1582660093497" duration="19865000" />
     </task>
+    <task id="LOCAL‎00001" summary="first commit">
+      <created>1582677290371</created>
+      <option name="number" value="LOCAL‎00001" />
+      <option name="presentableId" value="LOCAL‎00001" />
+      <updated>1582677290371</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -162,6 +154,14 @@
         <option value="$PROJECT_DIR$/node_modules/wait-for-expect/lib/index.d.js" />
       </list>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="CHECK_CODE_CLEANUP_BEFORE_PROJECT_COMMIT" value="true" />
+    <MESSAGE value="first commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="first commit" />
+    <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
+    <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
+    <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
   <component name="WindowStateProjectService">
     <state x="-1155" y="244" key="#com.intellij.ide.util.MemberChooser" timestamp="1582670217116">
@@ -176,6 +176,10 @@
       <screen x="-1920" y="0" width="1920" height="1050" />
     </state>
     <state x="-1234" y="264" key="#test/0.0.1920.1050/-1920.0.1920.1050@-1920.0.1920.1050" timestamp="1582666050492" />
+    <state x="-1322" y="123" key="CommitChangelistDialog2" timestamp="1582677289532">
+      <screen x="-1920" y="0" width="1920" height="1050" />
+    </state>
+    <state x="-1322" y="123" key="CommitChangelistDialog2/0.0.1920.1050/-1920.0.1920.1050@-1920.0.1920.1050" timestamp="1582677289532" />
     <state width="1408" height="277" key="GridCell.Tab.0.bottom" timestamp="1582677263833">
       <screen x="-1920" y="0" width="1920" height="1050" />
     </state>
@@ -200,10 +204,10 @@
       <screen x="-1920" y="0" width="1920" height="1050" />
     </state>
     <state x="-1828" y="92" width="1736" height="866" key="com.intellij.history.integration.ui.views.FileHistoryDialog/0.0.1920.1050/-1920.0.1920.1050@-1920.0.1920.1050" timestamp="1582677248903" />
-    <state x="-1315" y="252" width="710" height="546" key="find.popup" timestamp="1582676551367">
+    <state x="-1315" y="252" width="710" height="546" key="find.popup" timestamp="1582678415315">
       <screen x="-1920" y="0" width="1920" height="1050" />
     </state>
-    <state x="-1315" y="252" width="710" height="546" key="find.popup/0.0.1920.1050/-1920.0.1920.1050@-1920.0.1920.1050" timestamp="1582676551367" />
+    <state x="-1315" y="252" width="710" height="546" key="find.popup/0.0.1920.1050/-1920.0.1920.1050@-1920.0.1920.1050" timestamp="1582678415315" />
     <state x="-1219" y="161" key="refactoring.ChangeSignatureDialog" timestamp="1582670276794">
       <screen x="-1920" y="0" width="1920" height="1050" />
     </state>
