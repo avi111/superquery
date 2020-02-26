@@ -4,88 +4,74 @@
     "children": [
       {
         "label": "File",
-        "icon": "coffee",
+        "icon": "fas fa-file-code",
         "children": [
           {
-            "label": "js",
-            "icon": "coffee",
+            "label": "JS",
+            "icon": "fab fa-js",
             "children": [
               {
-                "label": "js",
-                "icon": "coffee"
+                "label": "React",
+                "icon": "fab fa-react"
               },
               {
-                "label": "jsx",
-                "icon": "coffee"
+                "label": "Angular",
+                "icon": "fab fa-angular"
               },
               {
-                "label": "ts",
-                "icon": "coffee"
-              },
-              {
-                "label": "tsx",
-                "icon": "coffee"
-              },
-              {
-                "label": "coffee",
-                "icon": "coffee"
+                "label": "Vue",
+                "icon": "fab fa-vue"
               }
             ]
           },
           {
-            "label": "css",
-            "icon": "coffee",
+            "label": "Stylesheets",
+            "icon": "fab fa-css3-alt",
             "children": [
               {
-                "label": "css",
-                "icon": "coffee"
+                "label": "CSS",
+                "icon": "fab fa-css3"
               },
               {
-                "label": "scss",
-                "icon": "coffee"
+                "label": "SCSS",
+                "icon": "fab fa-sass"
               },
               {
-                "label": "less",
-                "icon": "coffee"
+                "label": "LESS",
+                "icon": "fab fa-less"
               }
             ]
           },
           {
-            "icon": "coffee",
-            "label": "json"
+            "label": "JSON",
+            "icon": "fab fa-js"
           }
         ]
       },
       {
         "label": "Image",
-        "icon": "coffee",
+        "icon": "fas fa-file-image"
+      },
+      {
+        "label": "Office",
+        "icon": "fab fa-microsoft",
         "children": [
           {
-            "label": "png",
-            "icon": "coffee"
+            "label": "Word",
+            "icon": "fas fa-file-word"
           },
           {
-            "label": "jpg",
-            "icon": "coffee"
+            "label": "Eexcel",
+            "icon": "fas fa-file-excel"
+          },
+          {
+            "label": "Power Point",
+            "icon": "fas fa-file-powerpoint"
           }
         ]
       },
       {
-        "label": "Document",
-        "icon": "coffee",
-        "children": [
-          {
-            "label": "doc",
-            "icon": "coffee"
-          },
-          {
-            "label": "pdf",
-            "icon": "coffee"
-          }
-        ]
-      },
-      {
-        "icon": "envelope",
+        "icon": "fas fa-envelope",
         "label": "Email"
       }
     ],

@@ -10,7 +10,7 @@ const Label = (props: { item: MenuItem }) => {
         <>
             {item.label}
             <i
-                className={classnames("float-right", item.icon && `fas fa-${item.icon}`)}></i></>
+                className={classnames("float-right", item.icon && `${item.icon}`)}></i></>
     );
 };
 export default Label;

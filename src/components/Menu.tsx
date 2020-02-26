@@ -9,7 +9,7 @@ const Menu = () => {
     const onSelect = (selectedKey: any) => action(selectedKey);
 
     return (
-        <Navbar bg="light" expand="lg">
+        <Navbar bg="dark" variant="dark" expand="lg" fixed="top">
             <Nav onSelect={onSelect} className="mr-auto">
                 {menu.map(item => {
                     const menuItem = new MenuItem(item as MenuItem);
